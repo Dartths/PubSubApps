@@ -10,7 +10,7 @@ namespace SubApp
 
     class Program
     {
-        const string ServiceBusConnectionString = "Endpoint=sb://orderservicebusdev.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=9Op81aMZL5FZFdUzgAFjFOiLsJkCjNViv03xDF7S80s=";
+        const string ServiceBusConnectionString = "INSERTCONNECTIONSTRINGHERE";
         const string TopicName = "order";
         const string SubscriptionName = "mysubscription";
         static ISubscriptionClient subscriptionClient;
