@@ -10,7 +10,7 @@ namespace PublishApp
     class Program
     {
         const string ServiceBusConnectionString = "INSERTCONNECTIONSTRINGHERE";
-        const string TopicName = "order";
+        const string TopicName = "INSERTTOPICNAMEHERE";
         static ITopicClient topicClient;
 
         public static async Task Main(string[] args)

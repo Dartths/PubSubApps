@@ -11,8 +11,8 @@ namespace SubApp
     class Program
     {
         const string ServiceBusConnectionString = "INSERTCONNECTIONSTRINGHERE";
-        const string TopicName = "order";
-        const string SubscriptionName = "mysubscription";
+        const string TopicName = "INSERTTOPICNAMEHERE";
+        const string SubscriptionName = "INSERTSUBSCRIPTIONNAMEHERE";
         static ISubscriptionClient subscriptionClient;
 
         public static async Task Main(string[] args)
